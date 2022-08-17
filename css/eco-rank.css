@@ -63,6 +63,10 @@ body {
     filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
 }
 
+#now {
+    background-color: #AAE1C0;;
+}
+
 .trophy {
     position: absolute;
     width: 95px;
@@ -240,10 +244,22 @@ main p {
     top: 784px;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
 
     background: #89A95D;
     border-radius: 50px;
+}
+#more, #in-less button,p{
+    cursor: pointer;
+}
+#more button{
+    display: flex;
+    justify-content: center;
+}
+#more p{
+    color: #fff;
+    font-size: 28px;
 }
 
 #in-more {
@@ -264,9 +280,13 @@ main p {
     color: #FFFFFF;
 }
 
+#less{
+    display: none;
+}
 #in-less {
     top: 950px;
 }
+
 
 #less ul {
     position: absolute;
